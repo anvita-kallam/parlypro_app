@@ -24,7 +24,7 @@ st.markdown(
     <a href="{url}" target="_blank">
         <button style="
             background-color: #FF2400;
-            text-color: white;
+            color: white;
             border: none; 
             padding: 10px 20px; 
             text-align: center; 
