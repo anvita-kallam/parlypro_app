@@ -23,7 +23,7 @@ st.markdown(
     f'''
     <a href="{url}" target="_blank">
         <button style="
-            background-color: lightgrey; 
+            background-color: #FF2400; 
             border: none; 
             padding: 10px 20px; 
             text-align: center; 
