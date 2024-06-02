@@ -1,6 +1,20 @@
 import streamlit as st
 
 # Set up the app title
+# Google Drive link to direct link conversion
+def convert_to_direct_link(google_drive_link):
+    file_id = google_drive_link.split('/')[5]
+    direct_link = f"https://drive.google.com/uc?export=view&id={file_id}"
+    return direct_link
+
+# URL of the image on Google Drive
+google_drive_link = "https://drive.google.com/file/d/1PRZyzop8x9rug5fLTCsx8DbLoGh-TQhN/view?usp=sharing"
+direct_link = convert_to_direct_link(google_drive_link)
+
+# Display the image
+st.image(direct_link, use_column_width=True)
+
+
 st.title("PA-TSA Parliamentary Procedure Help Guide")
 st.subheader("Hey PA-TSA! This guide is a one-stop for all things parliamentary procedure related. Simply use the dropdown to browse the resources we have to offer and let the app direct you where to go.")
 
