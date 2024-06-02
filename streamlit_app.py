@@ -13,7 +13,7 @@ questions_answers = {
 }
 
 # Create a dropdown for questions
-question = st.selectbox(list(questions_answers.keys()))
+question = st.selectbox("Choose a resource:", list(questions_answers.keys()))
 
 # Display the preset answer for the selected question
 answer, url = questions_answers[question]
