@@ -1,7 +1,6 @@
 import streamlit as st
 
 # Set up the app title
-st.logo("patsa_logo.png")
 st.title("PA-TSA Parliamentary Procedure Help Guide")
 st.subheader("Hey PA-TSA! This guide is a one-stop for all things parliamentary procedure related. Simply use the dropdown to browse the resources we have to offer and let the app direct you where to go.")
 
