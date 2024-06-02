@@ -16,7 +16,6 @@ questions_answers = {
 question = st.selectbox("Choose a question:", list(questions_answers.keys()))
 
 # Display the preset answer for the selected question
-answer = questions_answers[question]
-st.write(f"{answer}")
-
-
+answer, url = questions_answers[question]
+st.write(answer)
+st.markdown(f"[Click here for more information]({url})")
