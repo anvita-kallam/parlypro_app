@@ -19,7 +19,4 @@ question = st.selectbox("Choose a resource:", list(questions_answers.keys()))
 # Display the preset answer for the selected question
 answer, url = questions_answers[question]
 st.write(answer)
-
-# Create a button to link to the URL
-if st.button('Click here'):
-    st.markdown(f'<a href="{url}" target="_blank"><button>Go to Link</button></a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{url}" target="_blank"><button style="background-color: lightblue; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Click here for more information</button></a>', unsafe_allow_html=True)
