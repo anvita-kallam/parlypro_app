@@ -6,7 +6,7 @@ st.subheader("Hey PA-TSA! This guide is a one-stop for all things parliamentary 
 
 # Define a list of questions and preset answers
 questions_answers = {
-    "Chapter Team Event Rules": 'The linked pdf contains the event rules + rubrics; please note that it is an older guide and LEAP reports are no longer necessary', 'https://tmhs-tsa.weebly.com/uploads/9/3/9/7/93976199/chapter_team.pdf',
+    "Chapter Team Event Rules": ('The linked pdf contains the event rules + rubrics; please note that it is an older guide and LEAP reports are no longer necessary', 'https://tmhs-tsa.weebly.com/uploads/9/3/9/7/93976199/chapter_team.pdf'),
     "Official Study Guide": ("See the linked file", "https://docs.google.com/document/d/12QG02jRmP3kWenzUMgfUDQMjo_e8R8sIThZewhv8cOE/edit?usp=sharing"),
     "Official Practice Test": ("See the linked file", "https://docs.google.com/document/d/1aFigVc8EfmsY15gJmPGAYE15OqPS3UDLnbSeW8obFG0/edit?usp=sharing"),
     "Official Chapter Team Sample Docket": ("See the linked file", "https://docs.google.com/document/d/1lEx-m-VvngJfjOvydoYnVC8GepMzEOtqWQ9_Rc4L6dU/edit?usp=sharing"),
