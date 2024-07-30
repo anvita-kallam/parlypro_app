@@ -1,5 +1,4 @@
 import streamlit as st
-from openai import OPENAI 
 
 # Set up the app title
 st.title("PA-TSA Parliamentary Procedure Help Guide")
