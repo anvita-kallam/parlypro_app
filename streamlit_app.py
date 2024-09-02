@@ -1,4 +1,4 @@
-import streamlit as st
+cimport streamlit as st
 from streamlit_chat import message
 
 # Set up the app title
@@ -46,7 +46,7 @@ st.markdown(
 st.write("")
 
 st.subheader("Still Need Help? Ask the PA-TSA Bot")
-st.write("Possible Questions: What is Parliamentary Procedure? What is a motion? What is the difference between a majority and a plurality?")
+st.write("Possible Questions: What is Parliamentary Procedure? What is a motion? What is the difference between a majority and a plurality?...and more!")
 chatbot_questions_answers = {
     "What is Parliamentary Procedure?": "Parliamentary Procedure is a set of rules for conducting orderly meetings that accomplish goals fairly.",
     "Why is Parliamentary Procedure important?": "It ensures that meetings are conducted in an efficient, democratic, and orderly manner, allowing all members to have a voice.",
