@@ -45,12 +45,38 @@ st.markdown(
 
 st.write("")
 
-st.subheader("Ask the PA-TSA Bot")
+st.subheader("Still Need Help? Ask the PA-TSA Bot")
+st.write("Possible Questions: What is Parliamentary Procedure? What is a motion? What is the difference between a majority and a plurality?")
 chatbot_questions_answers = {
     "What is Parliamentary Procedure?": "Parliamentary Procedure is a set of rules for conducting orderly meetings that accomplish goals fairly.",
-    "What is the Chapter Team event?": "The Chapter Team event tests participants' knowledge and skills in parliamentary procedure through a simulated meeting.",
-    "How can I prepare for the Chapter Team event?": "You can prepare by studying the event rules, understanding parliamentary procedure, and practicing with your team.",
-    "Where can I find practice materials?": "Practice materials are available in the dropdown resources above, including study guides and practice tests.",
+    "Why is Parliamentary Procedure important?": "It ensures that meetings are conducted in an efficient, democratic, and orderly manner, allowing all members to have a voice.",
+    "What is a motion?": "A motion is a formal proposal made by a member of a group that the group take certain action.",
+    "What are the types of motions?": "There are several types of motions including main motions, subsidiary motions, privileged motions, incidental motions, and motions that bring a question again before the assembly.",
+    "What is a main motion?": "A main motion is a proposal that brings business before the assembly for consideration and action.",
+    "What is a subsidiary motion?": "A subsidiary motion is used to change or affect how the main motion is handled, and is voted on before the main motion.",
+    "What is a privileged motion?": "A privileged motion is a motion that is urgent or important enough to interrupt discussion, such as a motion to adjourn the meeting.",
+    "What is an incidental motion?": "An incidental motion is related to the main motion or other business but must be dealt with immediately, such as a point of order.",
+    "What is a point of order?": "A point of order is a claim made by a member that a rule of the assembly has been broken.",
+    "What is an amendment?": "An amendment is a motion to change the wording of a main motion before the main motion is voted on.",
+    "How do you make a motion?": "To make a motion, a member should say 'I move that...' and then state the proposal.",
+    "How is a motion seconded?": "Another member says 'Second' to show that at least one other member agrees that the motion should be considered.",
+    "What happens after a motion is seconded?": "The chairperson will restate the motion and then open the floor for debate. After debate, the motion is put to a vote.",
+    "What is a quorum?": "A quorum is the minimum number of members who must be present for the assembly to conduct business legally.",
+    "What is the role of the chairperson?": "The chairperson, or presiding officer, is responsible for conducting the meeting according to parliamentary procedure and ensuring that all members have an opportunity to participate.",
+    "How do you end a debate?": "To end a debate, a member can move to 'call the question,' which requires a second and a two-thirds vote to pass.",
+    "What is the difference between a majority and a plurality?": "A majority is more than half of the votes cast, while a plurality is the largest number of votes received by a candidate or proposal when three or more options are available.",
+    "What is a tie vote?": "A tie vote occurs when the votes for and against a motion are equal. The motion fails unless the chairperson casts a deciding vote.",
+    "How do you adjourn a meeting?": "A member can move to adjourn the meeting, which requires a second and a majority vote to pass.",
+    "What is a recess?": "A recess is a short break in the meeting, which can be called by a motion that must be seconded and approved by a majority vote.",
+    "What is a special meeting?": "A special meeting is a meeting held at a time other than the regularly scheduled time, usually to address urgent business.",
+    "Can a motion be withdrawn?": "Yes, the member who made the motion can withdraw it before it is voted on, with the consent of the assembly.",
+    "What is a committee?": "A committee is a small group of members assigned to consider or investigate a specific matter and report back to the assembly.",
+    "How do you amend a motion?": "To amend a motion, a member can say 'I move to amend the motion by...' and state the change. The amendment must be seconded and voted on before the main motion is considered.",
+    "What is the order of precedence of motions?": "Motions have an order of precedence, meaning some motions take priority over others, such as privileged motions taking precedence over main motions.",
+    "What is a standing rule?": "A standing rule is a rule related to the administration of the organization, which remains in effect until it is rescinded or amended.",
+    "What is a roll call vote?": "A roll call vote is when each member's vote is recorded individually, often used for important decisions.",
+    "What is a unanimous consent?": "Unanimous consent is a method of approving actions without a formal vote, used when no member objects to the proposal.",
+    "What is a division of the assembly?": "A division of the assembly is a request for a re-vote by a more accurate method, such as a show of hands or standing vote, often requested when the result of a voice vote is unclear.",
 }
 
 # Initialize session state if not already present
