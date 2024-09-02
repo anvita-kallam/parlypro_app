@@ -2,7 +2,7 @@
 <h3 align="center">This app is a one-stop for all things parliamentary procedure related. Simply use the dropdown to browse the resources PA-TSA has to offer and let the app direct you where to go.</h3>
 
 ```
-https://recidivism-g64txt2w52gfzrqjws9fdf.streamlit.app/
+https://patsa-parlyproguide.streamlit.app/
 ```
 
 ## What is this app
