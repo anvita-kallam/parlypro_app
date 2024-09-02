@@ -43,6 +43,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.write("")
+
 st.subheader("Ask the PA-TSA Bot")
 chatbot_questions_answers = {
     "What is Parliamentary Procedure?": "Parliamentary Procedure is a set of rules for conducting orderly meetings that accomplish goals fairly.",
