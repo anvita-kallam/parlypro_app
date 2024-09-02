@@ -48,6 +48,8 @@ st.write("")
 
 st.subheader("Still Have Questions? Ask the PA-TSA Chat Bot")
 st.write("If your questions aren't covered please feel free to email sot_parliamentarian@patsa.org")
+
+st.write("Note: if an error occurs just reload the tab")
 chatbot_questions_answers = {
     "What is Parliamentary Procedure?": "Parliamentary Procedure is a set of rules for conducting orderly meetings that accomplish goals fairly.",
     "Why is Parliamentary Procedure important?": "It ensures that meetings are conducted in an efficient, democratic, and orderly manner, allowing all members to have a voice.",
