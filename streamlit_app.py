@@ -47,9 +47,7 @@ st.markdown(
 st.write("")
 
 st.subheader("Still Have Questions? Ask the PA-TSA Chat Bot")
-st.write("Possible questions include: What is a motion? How do you make a motion? What is the difference between a majority and a plurality?...and more!")
-st.write("This chat bot is still in development stages so please try to format questions as close to the examples as possible")
-st.write("If you still have questions feel free to email sot_parliamentarian@patsa.org!")
+st.write("If your questions aren't covered please feel free to email sot_parliamentarian@patsa.org!")
 chatbot_questions_answers = {
     "What is Parliamentary Procedure?": "Parliamentary Procedure is a set of rules for conducting orderly meetings that accomplish goals fairly.",
     "Why is Parliamentary Procedure important?": "It ensures that meetings are conducted in an efficient, democratic, and orderly manner, allowing all members to have a voice.",
