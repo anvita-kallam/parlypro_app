@@ -1,4 +1,4 @@
-cimport streamlit as st
+import streamlit as st
 from streamlit_chat import message
 
 # Set up the app title
