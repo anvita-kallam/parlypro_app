@@ -2,18 +2,16 @@
 <h3 align="center">This app is a one-stop for all things parliamentary procedure related. Simply use the dropdown to browse the resources PA-TSA has to offer and let the app direct you where to go.</h3>
 
 ```
-[[https://recidivism-g64txt2w52gfzrqjws9fdf.streamlit.app/](https://patsa-parlyproguide.streamlit.app/](https://patsa-parlyproguide.streamlit.app/))
+[https://recidivism-g64txt2w52gfzrqjws9fdf.streamlit.app/](https://patsa-parlyproguide.streamlit.app/](https://patsa-parlyproguide.streamlit.app/)
 ```
 
-## What is the COMPAS dataset?
+## What is this app
+The PA-TSA Parliamentary Procedure Help Guide is a web application built using Streamlit that serves as a comprehensive resource for members of the Pennsylvania Technology Student Association (PA-TSA). Its primary purpose is to provide easy access to essential parliamentary procedure documents and study materials. Users can explore resources such as event rules, study guides, practice tests, and sample dockets through a dropdown menu, making it straightforward to find and utilize relevant information.
 
-The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset is a widely used dataset in criminal justice research. It contains information about defendants who were assessed using the COMPAS risk assessment tool, which is designed to predict the likelihood of a defendant reoffending or failing to appear for their court dates. The dataset typically includes features such as demographic information, criminal history, and COMPAS scores, as well as information about whether the defendant was re-arrested or failed to appear in court after the assessment.
+In addition to its resource repository, the app features an interactive chatbot powered by OpenAI's API. This chatbot allows users to ask questions about parliamentary procedures and receive real-time, accurate answers. This feature is designed to assist users with a variety of procedural queries, enhancing their understanding and application of parliamentary rules.
 
-## What is recidivism?
-
-Recidivism refers to the tendency of a convicted criminal to reoffend or relapse into criminal behavior, often after receiving sanctions or undergoing intervention for a previous crime. It's typically measured by looking at whether individuals who have been convicted of a crime commit new offenses or violate the conditions of their release (such as probation or parole) within a certain period of time after their initial conviction.
-
-Recidivism rates are commonly used as indicators of the effectiveness of rehabilitation programs, corrections policies, and interventions within the criminal justice system. Lower recidivism rates suggest that interventions, such as rehabilitation programs or community supervision, are successful in reducing the likelihood of individuals returning to criminal behavior.
+## Tech Skills
+Streamlit was used to create the user interface and manage interactions, including dropdowns and text inputs. Python was the core language, supporting both the app’s functionality and integration with OpenAI’s API for the chatbot. Integrating the API involved handling authentication, sending requests, and processing responses. HTML and CSS were utilized to customize the appearance of chat messages, including the addition of custom icons for user and bot interactions. Session management with Streamlit’s session state ensured that chat history was maintained and displayed accurately. The project combined web development, API integration, and UI design skills to create an effective and user-friendly educational tool.
 
 
 <h3 align="left">Tech Stack Used:</h3>
