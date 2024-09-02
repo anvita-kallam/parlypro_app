@@ -1,4 +1,4 @@
-<h1 align="center">PA-TSA Parliamentary Procedure Help Guide</h1>
+<h1 align="center">🧰 PA-TSA Parliamentary Procedure Help Guide</h1>
 <h3 align="center">This app is a one-stop for all things parliamentary procedure related. Simply use the dropdown to browse the resources PA-TSA has to offer and let the app direct you where to go.</h3>
 
 ```
