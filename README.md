@@ -10,7 +10,7 @@ The PA-TSA Parliamentary Procedure Help Guide is a web application built using S
 
 In addition to its resource repository, the app features an interactive chatbot powered by OpenAI's API. This chatbot allows users to ask questions about parliamentary procedures and receive real-time, accurate answers. This feature is designed to assist users with a variety of procedural queries, enhancing their understanding and application of parliamentary rules.
 
-## Tech Skills
+## Programming Skills
 Streamlit was used to create the user interface and manage interactions, including dropdowns and text inputs. Python was the core language, supporting both the app’s functionality and integration with OpenAI’s API for the chatbot. Integrating the API involved handling authentication, sending requests, and processing responses. HTML and CSS were utilized to customize the appearance of chat messages, including the addition of custom icons for user and bot interactions. Session management with Streamlit’s session state ensured that chat history was maintained and displayed accurately. The project combined web development, API integration, and UI design skills to create an effective and user-friendly educational tool.
 
 
