@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_chat import message
 
-openai.api_key = "sk-RUcyscMoB9hpS2XhxzFNbCDe4fmtIx4YdYqPLbaakQT3BlbkFJDBC9Eejf9Kc2uqRDIWEeY1OrSXEG_zq3VL9apdnoUA"
 
 # Set up the app title
 st.title("PA-TSA Parliamentary Procedure Help Guide")
