@@ -6,7 +6,7 @@ https://patsa-parlyproguide.streamlit.app/
 ```
 
 ## What is this app
-The PA-TSA Parliamentary Procedure Help Guide is a web application built using Streamlit that serves as a comprehensive resource for members of the Pennsylvania Technology Student Association (PA-TSA). Its primary purpose is to provide easy access to essential parliamentary procedure documents and study materials. Users can explore resources such as event rules, study guides, practice tests, and sample dockets through a dropdown menu, making it straightforward to find and utilize relevant information.
+The PA-TSA Parliamentary Procedure Help Guide is a web application built using Streamlit that serves as a comprehensive resource for members of the Pennsylvania Technology Student Association (PA-TSA). Its primary purpose is to provide easy access to essential parliamentary procedure documents and study materials. Users can explore resources such as event rules, study guides, practice tests, and sample dockets through a dropdown menu, making it straightforward to find and utilize relevant information. All documents can be found on the resources section of the site as well.
 
 In addition to its resource repository, the app features an interactive chatbot powered by OpenAI's API. This chatbot allows users to ask questions about parliamentary procedures and receive real-time, accurate answers. This feature is designed to assist users with a variety of procedural queries, enhancing their understanding and application of parliamentary rules.
 
